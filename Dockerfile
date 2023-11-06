@@ -103,4 +103,4 @@ RUN apk add --no-cache --virtual .build-deps-yarn curl gnupg tar \
 COPY docker-entrypoint.sh /usr/local/bin/
 ENTRYPOINT ["docker-entrypoint.sh"]
 
-CMD [ "node roku_radar_01.js" ]
+CMD ["node"]`
